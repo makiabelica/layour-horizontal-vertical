@@ -10,18 +10,16 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:baselineAligned="false"
-      android:divider="?android:attr/dividerVertical"
+      android:divider="?android:attr/dividerHorizontal"
       android:orientation="horizontal"
       android:weightSum="1"
       android:padding="10dp"
       android:showDividers="middle"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintEnd_toStartOf="parent"
       >
 
       <fragment
-          android:layout_width="match_parent"
-          android:layout_height="120dp"
+          android:layout_width="120dp"
+          android:layout_height="match_parent"
          android:id="@+id/fragmento1"
          android:name="sv.ufg.edu.fis.amb.orientacion.fragmento1"
 
